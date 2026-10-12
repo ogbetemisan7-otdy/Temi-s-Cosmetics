@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    color: #8b3158;
+    margin-bottom: 5px;
+}
+nav {
+    margin-top: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #702747;
+    margin: 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.welcome {
+    text-align: center;
+    padding: 35px 15px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+h2 {
+    color: #8b3158;
+}
+#products {
+    padding: 20px;
+    text-align: center;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.product {
+    background-color: white;
+    border: 1px solid pink;
+    border-radius: 8px;
+    padding: 15px;
+    width: 220px;
+}
+.product-image {
+    background-color: #ffe4ed;
+    padding: 15px;
+    font-size: 45px;
+}
+.product h3 {
+    color: #8b3158;
+}
+.price {
+    color: #c2185b;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button {
+    display: inline-block;
+    background-color: #8b3158;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #61203d;
+}
+.social {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid pink;
+    border-radius: 8px;
+}
+.social a,
+.social-links a {
+    display: inline-block;
+    color: #8b3158;
+    margin: 8px;
+    text-decoration: none;
+}
+.social a:hover,
+.social-links a:hover {
+    text-decoration: underline;
+}
+.content {
+    background-color: white;
+    padding: 25px;
+    margin: 25px auto;
+    width: 90%;
+    max-width: 850px;
+    border: 1px solid pink;
+    border-radius: 8px;
+}
+.content li {
+    margin-bottom: 8px;
+}
+.content a {
+    color: #8b3158;
+}
+.content .button {
+    color: white;
+}
+.note {
+    color: #666;
+    font-size: 13px;
+    margin-top: 20px;
+}
+footer {
+    background-color: pink;
+    text-align: center;
+    padding: 12px;
+    margin-top: 30px;
+}
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product {
+        width: 90%;
+        max-width: 350px;
+    }
+    .content {
+        width: 94%;
+    }
+}
